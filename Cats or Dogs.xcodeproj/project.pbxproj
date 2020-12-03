@@ -11,6 +11,10 @@
 		F53F142E25794EAE005059C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53F142D25794EAE005059C2 /* ContentView.swift */; };
 		F53F143025794EB5005059C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53F142F25794EB5005059C2 /* Assets.xcassets */; };
 		F53F143325794EB5005059C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53F143225794EB5005059C2 /* Preview Assets.xcassets */; };
+		F53F143E257950F0005059C2 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F53F143B257950EF005059C2 /* MobileNetV2.mlmodel */; };
+		F53F143F257950F0005059C2 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = F53F143C257950F0005059C2 /* sample.json */; };
+		F53F1440257950F0005059C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53F143D257950F0005059C2 /* Constants.swift */; };
+		F53F144325795188005059C2 /* animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53F144225795188005059C2 /* animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		F53F142F25794EB5005059C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F53F143225794EB5005059C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F53F143425794EB5005059C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F53F143B257950EF005059C2 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		F53F143C257950F0005059C2 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		F53F143D257950F0005059C2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F53F144225795188005059C2 /* animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +63,12 @@
 				F53F142B25794EAE005059C2 /* Cats_or_DogsApp.swift */,
 				F53F142D25794EAE005059C2 /* ContentView.swift */,
 				F53F142F25794EB5005059C2 /* Assets.xcassets */,
+				F53F143D257950F0005059C2 /* Constants.swift */,
+				F53F143B257950EF005059C2 /* MobileNetV2.mlmodel */,
+				F53F143C257950F0005059C2 /* sample.json */,
 				F53F143425794EB5005059C2 /* Info.plist */,
 				F53F143125794EB5005059C2 /* Preview Content */,
+				F53F144225795188005059C2 /* animal.swift */,
 			);
 			path = "Cats or Dogs";
 			sourceTree = "<group>";
@@ -128,6 +140,7 @@
 			files = (
 				F53F143325794EB5005059C2 /* Preview Assets.xcassets in Resources */,
 				F53F143025794EB5005059C2 /* Assets.xcassets in Resources */,
+				F53F143F257950F0005059C2 /* sample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F53F143E257950F0005059C2 /* MobileNetV2.mlmodel in Sources */,
 				F53F142E25794EAE005059C2 /* ContentView.swift in Sources */,
 				F53F142C25794EAE005059C2 /* Cats_or_DogsApp.swift in Sources */,
+				F53F1440257950F0005059C2 /* Constants.swift in Sources */,
+				F53F144325795188005059C2 /* animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
